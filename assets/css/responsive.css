@@ -1,0 +1,131 @@
+/**
+* Responsive CSS
+*/
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+    .ec-hero-section {
+        padding-top: 135px;
+        padding-bottom: 100px;
+    }
+    .ec-hero-content h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .ec-hero-content p {
+        font-size: 18px;
+    }
+    .ec-blog-item .ec-blog-item-content h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .ec-blog-item .ec-blog-item-content p {
+        font-size: 14px;
+        color: #999;
+        margin: 0;
+        line-height: 26px;
+    }
+    .ec-search-front {
+        padding: 10px;
+    }
+    .ec-section-title h4 {
+        font-size: 18px;
+    }
+    .ec-section-title p {
+        font-size: 11px;
+    }
+    .ec-view-more-btn {
+        font-size: 12px;
+    }
+    .section-title h4 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .section-title p {
+        font-size: 12px;
+    }
+    ul.ec-footer-quick-links li {
+        margin-bottom: 5px;
+    }
+    .ec-main-menu-mobile ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    .ec-main-menu-mobile ul li {
+        line-height: 35px;
+    }
+    .ec-footer-copyright {
+        text-align: center;
+        width: 100%;
+    }
+    .ecoffcanvas {
+        width: 300px;
+        padding: 40px 35px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .ec-hero-section {
+        padding-top: 135px;
+        padding-bottom: 100px;
+    }
+    .ec-hero-content h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .ec-hero-content p {
+        font-size: 18px;
+    }
+    .ec-blog-item .ec-blog-item-content h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .ec-blog-item .ec-blog-item-content p {
+        font-size: 14px;
+        color: #999;
+        margin: 0;
+        line-height: 26px;
+    }
+    .ec-search-front {
+        padding: 10px;
+    }
+    .ec-section-title h4 {
+        font-size: 18px;
+    }
+    .ec-section-title p {
+        font-size: 11px;
+    }
+    .ec-view-more-btn {
+        font-size: 12px;
+    }
+    .section-title h4 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .section-title p {
+        font-size: 12px;
+    }
+    .ec-main-menu-mobile ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    .ec-main-menu-mobile ul li {
+        line-height: 35px;
+    }
+    ul.ec-footer-quick-links li {
+        margin-bottom: 5px;
+    }
+    .ec-footer-copyright {
+        text-align: center;
+        width: 100%;
+    }
+}

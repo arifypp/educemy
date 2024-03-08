@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Educemy - Online Blog Content Management" />
+        <meta name="author" content="Md Khorshed" />
+        <title>Educemy - Online Blog Content Management</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/font-awesome-pro.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/backtotop.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/spacing.css" >
+        <link rel="stylesheet" href="assets/css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+        <!-- Progress -->
+        <div class="progress-wrap active-progress">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 0;"></path>
+            </svg>
+        </div>
+        <!-- Progress End -->
+        <!-- Search -->
+        <div class="search__popup z-index-8">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-12">
+                     <div class="search__wrapper">
+                        <div class="search__top d-flex justify-content-between align-items-center">
+                           <div class="search__logo">
+                              <a href="index.html">
+                                 <img src="assets/images/logo-white.png" alt="logo" width="220px"/>
+                              </a>
+                           </div>
+                           <div class="search__close">
+                              <button type="button" class="search__close-btn search-close-btn">
+                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                 </svg>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="search__form">
+                           <form action="#" data-np-autofill-form-type="other" data-np-checked="1" data-np-watching="1">
+                              <div class="search__input">
+                                 <input class="search-input-field" type="text" placeholder="Type here to search...">
+                                 <span class="search-focus-border"></span>
+                                 <button type="submit">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                       <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                 </button>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Search End -->
+        <!-- tp-offcanvus-area-start -->
+        <div class="ecoffcanvas-area">
+            <div class="ecoffcanvas">
+            <div class="ecoffcanvas__close-btn">
+                <button class="close-btn"><i class="fal fa-times"></i></button>
+            </div>
+            <div class="ecoffcanvas__logo">
+                <a href="index.html">
+                    <img src="assets/images/logo-white.svg" alt="Logo" width="180">
+                </a>
+            </div>
+            <div class="ec-main-menu-mobile d-xl-none"></div>
+            </div>
+        </div>
+        <div class="body-overlay"></div>
+        <!-- tp-offcanvus-area-end -->
+
+        <!-- Header -->
+        <header>
+            <div class="ec-header ec-transparent-header">
+                <div class="ec-header-area ec-header">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-2 col-lg-2 col-md-4 col-6">
+                                <div class="ec-header-logo">
+                                    <a href="index.html">
+                                        <img src="assets/images/logo-white.svg" alt="logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 d-none d-xl-block">
+                                <div class="ec-mainmenu text-end">
+                                    <nav class="ec-main-menu-content text-light">
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="blog-list.html">Browse Scholarship</a></li>
+                                            <li><a href="university.html">Study Destination</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>                                
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-2 col-lg-8 col-md-8 col-6">
+                                <div class="ec-header-right d-flex align-items-center justify-content-end">
+                                    <div class="search-icon">
+                                        <a href="#" class="ec-search-btn"><i class="fa-regular fa-search"></i></a>
+                                    </div>
+                                    <div class="ec-header-right-btn d-none d-lg-block">
+                                        <a href="contact.html" class="ec-btn ec-btn-primary">Get Started</a>
+                                    </div>
+                                    <div class="ec-header-bar d-xl-none">
+                                        <button class="ec-menu-bar"><i class="fa-solid fa-bars"></i></button>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="ec-hero-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 offset-lg-3">
+                            <div class="ec-hero-content text-light z-index-3 text-center wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".4s">
+                                <h1>Find <span> Scholarships </span> to<br> Finance
+                                    Your Study</h1>
+                                <p>Join our mission to make study choice transparent, globally.</p>
+                                <div class="ec-search-front text-center">
+                                    <form action="#">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search Scholarships">
+                                            <select class="form-control" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                                <option selected>Country</option>
+                                                <option value="1">USA</option>
+                                                <option value="2">UK</option>
+                                                <option value="3">Canada</option>
+                                                <option value="4">Australia</option>
+                                            </select>
+                                            <button class="ec-btn ec-btn-primary" type="button">Search</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="popular-searched-tag mt-2">
+                                    <a href="#" class="badge badge-info">Scholarship</a>
+                                    <a href="#" class="badge badge-info">University</a>
+                                    <a href="#" class="badge badge-info">College</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ec-most-visited">
+                <div class="container">
+                    <div class="row align-items-center mb-4">
+                        <div class="col-9 col-xl-6 col-lg-6 col-md-9 col-sm-8">
+                            <div class="ec-section-title">
+                                <h4>Most Visited Scholarships</h4>
+                                <p>Most viewed and all-times visiting scholarship.</p>
+                            </div>
+                        </div>
+                        <div class="col-3 col-xl-6 col-lg-6 col-md-3 col-sm-4">
+                            <div class="ec-view-more-btn text-end">
+                                <a href="blog.html">View All <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
+                            <div class="ec-blog-item card shadow-sm">
+                                <div class="card-header p-0">
+                                    <div class="ec-blog-item-img position-relative">
+                                        <img src="assets/images/blog/1.png" alt="scholarship" class="img-fluid w-100">
+                                        <div class="ec-blog-favorite position-absolute top-0 end-0 p-2 me-2 mt-2 bg-white rounded text-center">
+                                            <a href="#"><i class="far fa-heart fs-4"></i></a>
+                                                <span class="d-block text-sm">250</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ec-blog-item-content card-body">
+                                    <h3 class="text-weight-700"><a href="#">Out-of-state Free Student off Scholarship</a></h3>
+                                    <p>International Scholarship for Undergraduate and Postgraduate Students.</p>
+                                </div>
+                                <div class="card-footer ec-blog-footer bg-white">
+                                    <div class="ec-blog-author d-flex align-items-center justify-content-between">
+                                        <div class="ec-blog-author-meta d-flex align-items-center">
+                                            <div class="ec-blog-author-img me-2 ">
+                                                <img src="https://picsum.photos/50" alt="author" class="img-fluid img-thumbnail avatar rounded-circle" width="50" height="50">
+                                            </div>
+                                            <div class="ec-blog-meta-reading">
+                                                <h6 class="m-0"><strong>Educemy Editorial Team</strong></h6>
+                                                <ul class="ec-blog-meta list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                                    <li class="text-muted text-sm">June 12, 2021</li>
+                                                    <li class="text-muted text-sm">2 min read</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="ec-share-blog">
+                                            <ul class="ec-social-share d-flex align-items-center list-unstyled m-0 gap-3">
+                                                <li><a href="#"><i class="fa-regular fa-bookmark fs-6"></i></a></li>
+                                                <li>
+                                                    <button class="ec-share-btn" data-bs-toggle="modal" data-bs-target="#shareModal">
+                                                        <img src="/assets/images/icons/share.svg" class="img-fluid" width="32" />
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
+                            <div class="ec-blog-item card shadow-sm">
+                                <div class="card-header p-0">
+                                    <div class="ec-blog-item-img position-relative">
+                                        <img src="assets/images/blog/1.png" alt="scholarship" class="img-fluid w-100">
+                                        <div class="ec-blog-favorite position-absolute top-0 end-0 p-2 me-2 mt-2 bg-white rounded text-center">
+                                            <a href="#"><i class="far fa-heart fs-4"></i></a>
+                                                <span class="d-block text-sm">250</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ec-blog-item-content card-body">
+                                    <h3 class="text-weight-700"><a href="#">Out-of-state Free Student off Scholarship</a></h3>
+                                    <p>International Scholarship for Undergraduate and Postgraduate Students.</p>
+                                </div>
+                                <div class="card-footer ec-blog-footer bg-white">
+                                    <div class="ec-blog-author d-flex align-items-center justify-content-between">
+                                        <div class="ec-blog-author-meta d-flex align-items-center">
+                                            <div class="ec-blog-author-img me-2 ">
+                                                <img src="https://picsum.photos/50" alt="author" class="img-fluid img-thumbnail avatar rounded-circle" width="50" height="50">
+                                            </div>
+                                            <div class="ec-blog-meta-reading">
+                                                <h6 class="m-0"><strong>Educemy Editorial Team</strong></h6>
+                                                <ul class="ec-blog-meta list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                                    <li class="text-muted text-sm">June 12, 2021</li>
+                                                    <li class="text-muted text-sm">2 min read</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="ec-share-blog">
+                                            <ul class="ec-social-share d-flex align-items-center list-unstyled m-0 gap-3">
+                                                <li><a href="#"><i class="fa-regular fa-bookmark fs-6"></i></a></li>
+                                                <li>
+                                                    <button class="ec-share-btn" data-bs-toggle="modal" data-bs-target="#shareModal">
+                                                        <img src="/assets/images/icons/share.svg" class="img-fluid" width="32" />
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
+                            <div class="ec-blog-item card shadow-sm">
+                                <div class="card-header p-0">
+                                    <div class="ec-blog-item-img position-relative">
+                                        <img src="assets/images/blog/1.png" alt="scholarship" class="img-fluid w-100">
+                                        <div class="ec-blog-favorite position-absolute top-0 end-0 p-2 me-2 mt-2 bg-white rounded text-center">
+                                            <a href="#"><i class="far fa-heart fs-4"></i></a>
+                                                <span class="d-block text-sm">250</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ec-blog-item-content card-body">
+                                    <h3 class="text-weight-700"><a href="#">Out-of-state Free Student off Scholarship</a></h3>
+                                    <p>International Scholarship for Undergraduate and Postgraduate Students.</p>
+                                </div>
+                                <div class="card-footer ec-blog-footer bg-white">
+                                    <div class="ec-blog-author d-flex align-items-center justify-content-between">
+                                        <div class="ec-blog-author-meta d-flex align-items-center">
+                                            <div class="ec-blog-author-img me-2 ">
+                                                <img src="https://picsum.photos/50" alt="author" class="img-fluid img-thumbnail avatar rounded-circle" width="50" height="50">
+                                            </div>
+                                            <div class="ec-blog-meta-reading">
+                                                <h6 class="m-0"><strong>Educemy Editorial Team</strong></h6>
+                                                <ul class="ec-blog-meta list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                                    <li class="text-muted text-sm">June 12, 2021</li>
+                                                    <li class="text-muted text-sm">2 min read</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="ec-share-blog">
+                                            <ul class="ec-social-share d-flex align-items-center list-unstyled m-0 gap-3">
+                                                <li><a href="#"><i class="fa-regular fa-bookmark fs-6"></i></a></li>
+                                                <li>
+                                                    <button class="ec-share-btn" data-bs-toggle="modal" data-bs-target="#shareModal">
+                                                        <img src="/assets/images/icons/share.svg" class="img-fluid" width="32" />
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ec-about-section wow bounceInUp">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="ec-about-content">
+                                <h2>Why Choose Us?</h2>
+                                <p>Our mission is to make study choice transparent, globally. We believe that education is the key to a better future. Therefore, we want to make it easier for students to find the right study program and make the right choice. We do this by providing students with the most comprehensive and up-to-date study choice platform in the world. We want to help students find the right study program, and we want to help universities and colleges to find the right students.</p>
+                                <ul class="ec-about-featuer-list list-unstyled">
+                                    <li><i class="fa-solid fa-check"></i> 100% Secure</li>
+                                    <li><i class="fa-solid fa-check"></i> 24/7 Support</li>
+                                    <li><i class="fa-solid fa-check"></i> 100% Money Back</li>
+                                    <li><i class="fa-solid fa-check"></i> 100% Secure</li>
+                                    <li><i class="fa-solid fa-check"></i> 24/7 Support</li>
+                                    <li><i class="fa-solid fa-check"></i> 100% Money Back</li>
+                                </ul>
+                                <div class="ec-about-btn">
+                                    <a href="about.html" class="ec-btn ec-btn-primary">Read More <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-none d-md-block d-lg-block">
+                            <div class="ec-about-img position-absolute bottom-0 end-0 h-100">
+                                <img src="assets/images/about/1.png" alt="about" class="img-fluid h-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="most-visited-country">
+                <div class="container">
+                    <div class="row align-items-center mb-2">
+                        <div class="col-9 col-xl-6 col-lg-6 col-md-9">
+                            <div class="section-title">
+                                <h4>Most Visited Country</h4>
+                                <p>Most visited and all-times visiting country.</p>
+                            </div>
+                        </div>
+                        <div class="col-3 col-xl-6 col-lg-6 col-md-3">
+                            <div class="ec-view-more-btn text-end">
+                                <button href="blog.html">View All <i class="fa-solid fa-arrow-right ms-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3">
+                            <div class="most-visited-country-item  d-flex align-items-center gap-2 justify-content-start">
+                                <div class="most-visited-country-item-img">
+                                    <span class="avatar rounded-circle">U</span>
+                                </div>
+                                <div class="most-visited-country-item-content">
+                                    <h6 class="m-0">United States <span class="text-danger">(523)</span></h6>
+                                    <ul class="list-unstyled m-0 p-0 d-flex align-items-center gap-2">
+                                        <li><a href="#">Scholarship</a></li>
+                                        <li><a href="#">University</a></li>
+                                        <li><a href="#">College</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- shareModal -->
+        <div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="shareModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h6 class="modal-title" id="shareModalLabel">Share this post</h6>
+                        <button type="button" class="btn-close btn-sm bg-secondary rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Share this post via link</span>
+                        <ul class="ec-social-share d-flex align-items-center list-unstyled m-0 gap-3">
+                            <li class="rounded-circle"><a href="#"><i class="fab fa-facebook-f fs-4"></i></a></li>
+                            <li class="rounded-circle"><a href="#"><i class="fab fa-twitter fs-4"></i></a></li>
+                            <li class="rounded-circle"><a href="#"><i class="fab fa-linkedin-in fs-4"></i></a></li>
+                            <li class="rounded-circle"><a href="#"><i class="fab fa-instagram fs-4"></i></a></li>
+                        </ul>
+                        <span class="mt-3">Or copy link</span>
+                        <div class="input-group">
+                            <input type="text" class="form-control" value="https://www.educemy.com/blog/1" id="copyLink" readonly>
+                            <button class="btn btn-secondary" type="button" onclick="copyLink()"><i class="fa-regular fa-copy"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+        <footer>
+            <section class="ec-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="ec-footer-widget ec-footer-detials">
+                                <div class="ec-footer-logo mb-3">
+                                    <a href="index.html">
+                                        <img src="assets/images/logo-white.svg" alt="logo" width="220"/>
+                                    </a>
+                                </div>
+                                <p>Our mission is to make study choice transparent, globally. We believe that education is the key to a better future. Therefore, we want to make it easier for students to find the right study program and make the right choice.</p>
+                                <ul class="ec-footer-contact-quick-links list-unstyled m-0 p-0 mb-3">
+                                    <li><a href="tel:+8801234567890"><i class="fa-light fa-phone me-3"></i> +880 123 456 7890</a></li>
+                                    <li><a href="mailto:info@site.com"><i class="fa-regular fa-envelope me-3"></i> Info@site.com</a></li>
+                                    <li><a href="#"><i class="fa-regular fa-location-dot me-3"></i> 123, New York, USA</a></li>
+                                </ul>
+                                <ul class="ec-social-share list-unstyled m-0 p-0 d-flex align-items-center gap-4">
+                                    <li><a href="#"><i class="fab fa-facebook-f fs-6"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter fs-6"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in fs-6"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram fs-6"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 mb-2">
+                                    <div class="ec-footer-widget pb-2 ec-border-bottom d-flex justify-content-between align-items-center">
+                                        <h4>Get Start From Today</h4>
+                                        <a href="submit" class="ec-btn ec-btn-primary">Subscribe</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="ec-footer-widget">
+                                        <h4>Quick Links</h4>
+                                        <ul class="ec-footer-quick-links list-unstyled m-0 p-0">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="ec-footer-widget">
+                                        <h4>Services</h4>
+                                        <ul class="ec-footer-quick-links list-unstyled m-0 p-0">
+                                            <li><a href="#">Scholarship</a></li>
+                                            <li><a href="#">University</a></li>
+                                            <li><a href="#">College</a></li>
+                                            <li><a href="#">Course</a></li>
+                                            <li><a href="#">Country</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="ec-footer-widget">
+                                        <h4>Services</h4>
+                                        <ul class="ec-footer-quick-links list-unstyled m-0 p-0">
+                                            <li><a href="#">Scholarship</a></li>
+                                            <li><a href="#">University</a></li>
+                                            <li><a href="#">College</a></li>
+                                            <li><a href="#">Course</a></li>
+                                            <li><a href="#">Country</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="footer-bottom-content d-flex justify-content-between align-items-center pt-3 mt-1 ec-border-top">
+                                        <div class="ec-footer-copyright">
+                                            <p class="m-0">© 2021 Educemy. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="ec-footer-made d-none d-lg-block d-md-block">
+                                            <p class="m-0">Made with <i class="fa-solid fa-heart text-danger"></i> by <a href="https://www.happyrif.com" target="_blank">HappyArif</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="assets/js/vendor/jquery.js"></script>
+        <script src="assets/js/wow.js"></script>
+        <script src="assets/js/nice-select.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/backtotop.js"></script>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
