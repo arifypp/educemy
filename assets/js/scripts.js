@@ -6,6 +6,12 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
+//===== Prealoder
+$(window).on('load', function (event) {
+    $('.ec_preloader_wrap').delay(500).fadeOut(500);
+}
+);
+
 //----------------------------------------------------------------------------------------
 if ($('.progress-bar').length) {
     $('.progress-bar').appear(function () {
@@ -104,3 +110,13 @@ if($('.ec-main-menu-content').length && $('.ec-main-menu-mobile').length){
 if ($('.ec-range-slider').length) {
     $(".ec-range-slider").ionRangeSlider();
 }
+
+///////////////////////////////////////////////////
+// Sticky Header
+$(window).on('scroll', function () {
+    if ($(this).scrollTop() > 120) {
+        $('.ec-header').addClass("sticky");
+    } else {
+        $('.ec-header').removeClass("sticky");
+    }
+});
